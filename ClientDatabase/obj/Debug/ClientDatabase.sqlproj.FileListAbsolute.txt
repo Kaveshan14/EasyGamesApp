@@ -1,0 +1,9 @@
+C:\Users\Proline\OneDrive\Desktop\EasyGamesGUIApp\EasyGamesClientApp\ClientDatabase\bin\Debug\ClientDatabase.dacpac
+C:\Users\Proline\OneDrive\Desktop\EasyGamesGUIApp\EasyGamesClientApp\ClientDatabase\bin\Debug\ClientDatabase.dll
+C:\Users\Proline\OneDrive\Desktop\EasyGamesGUIApp\EasyGamesClientApp\ClientDatabase\bin\Debug\ClientDatabase.pdb
+C:\Users\Proline\OneDrive\Desktop\EasyGamesGUIApp\EasyGamesClientApp\ClientDatabase\obj\Debug\ClientDatabase.dll
+C:\Users\Proline\OneDrive\Desktop\EasyGamesGUIApp\EasyGamesClientApp\ClientDatabase\obj\Debug\ClientDatabase.pdb
+C:\Users\Proline\OneDrive\Desktop\EasyGamesGUIApp\EasyGamesClientApp\ClientDatabase\obj\Debug\Model.xml
+C:\Users\Proline\OneDrive\Desktop\EasyGamesGUIApp\EasyGamesClientApp\ClientDatabase\obj\Debug\refactor.xml
+C:\Users\Proline\OneDrive\Desktop\EasyGamesGUIApp\EasyGamesClientApp\ClientDatabase\obj\Debug\postdeploy.sql
+C:\Users\Proline\OneDrive\Desktop\EasyGamesGUIApp\EasyGamesClientApp\ClientDatabase\obj\Debug\predeploy.sql

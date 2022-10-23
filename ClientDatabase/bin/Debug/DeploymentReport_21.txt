@@ -1,0 +1,33 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[TransactionTable]
+       [dbo].[TransactionTypeTable]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column TransactionID in table [dbo].[TransactionTable] is currently  BIGINT IDENTITY (1, 1) NOT NULL but is
+         being changed to  INT IDENTITY (1, 1) NOT NULL. Data loss could occur and deployment may fail if the column contains
+         data that is incompatible with type  INT IDENTITY (1, 1) NOT NULL.
+
+** User actions
+     Table rebuild
+       [dbo].[TransactionTable] (Table)
+       [dbo].[TransactionTypeTable] (Table)
+     Alter
+       [dbo].[sp_AddClientTransaction] (Procedure)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Transaction_TransactionTypeTable] (Foreign Key)
+       [dbo].[FK_Transaction_ClientTable] (Foreign Key)
+     Create
+       [dbo].[FK_Transaction_TransactionTypeTable] (Foreign Key)
+       [dbo].[FK_Transaction_ClientTable] (Foreign Key)
+     Refresh
+       [dbo].[sp_GetSingleClient] (Procedure)
+
+The type for column TransactionID in table [dbo].[TransactionTable] is currently  BIGINT IDENTITY (1, 1) NOT NULL but is being changed to  INT IDENTITY (1, 1) NOT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  INT IDENTITY (1, 1) NOT NULL.
+If this deployment is executed, changes to [dbo].[TransactionTable] might introduce run-time errors in [dbo].[sp_AddClientTransactionNew].
+
